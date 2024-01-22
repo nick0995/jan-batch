@@ -1,21 +1,18 @@
-import CoreConcepts from './component/CoreConcepts.jsx';
-import Header from './component/Header/Header.jsx';
-import Examples from './component/Examples.jsx';
-
-function App() { //comp
-  console.log('APP COMPONENT EXECUTING');
-
-  // fragments
+function App() {
   return (
-    <> 
-      <div>
-        <Header />
-        <main>
-          <CoreConcepts />
-          <Examples />
-        </main>
-      </div>
-    </>
+    <div>
+      <header>
+        <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
+        <h1>React Essentials</h1>
+        <p>
+          Fundamental React concepts you will need for almost any app you are
+          going to build!
+        </p>
+      </header>
+      <main>
+        <h2>Time to get started!</h2>
+      </main>
+    </div>
   );
 }
 
