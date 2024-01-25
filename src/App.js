@@ -52,3 +52,9 @@ const App = () => {
 }
 
 export default App;
+
+// Task --  for 1st hr
+// Add a edit button for each expense
+// On click of edit button you are able to edit all the fields of an expense
+// These fields will be filled inside the forms
+// on click of add expense button the particular expense will update
